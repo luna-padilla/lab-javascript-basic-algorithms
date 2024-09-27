@@ -18,3 +18,12 @@ if (hacker1.length > hacker2.length) {
   }
 
 // Iteration 3: Loops
+let char = "";
+for (let i = 0; i < hacker1.length; i++) {
+  if (i === hacker1.length - 1) {
+    char += hacker1[i].toUpperCase();
+  } else if (i !== hacker1.length - 1) {
+    char += hacker1[i].toUpperCase() + " ";
+  }
+}
+console.log(`${char} `);
