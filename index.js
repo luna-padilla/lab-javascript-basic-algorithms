@@ -89,3 +89,4 @@ function getLexicographicOrder(hacker1, hacker2) {
 }
 const msg = getLexicographicOrder(hacker1, hacker2);
 console.log(msg);
+
